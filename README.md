@@ -3,7 +3,8 @@
  
 ## 📝 Todo-list
 - [ ] macbook 환경 세팅
-- [ ] App.js와 Index.js와.. Index.html의 flow... 이해하기
+- [x] App.js와 Index.js와.. Index.html의 flow... 이해하기
+- [ ] flow 언젠간 그려서..
 - [ ] 1주차 퀴즈 앱 만들기 돌려돌려
 - [ ] 간단한 페이지 UI 구성 계획
 
