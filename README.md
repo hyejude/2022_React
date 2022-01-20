@@ -1,6 +1,6 @@
 # React! React! React! 
 - 플러터 라이센스 등록 실패, 플러그인 설치 실패로 인해.. 갈 길 잃은 망망이는 리액트라도 다시 공부해보자 악을 품는데...  
-- 
+ 
 ## 📝 Todo-list
 - [ ] macbook 환경 세팅
 - [ ] App.js와 Index.js와.. Index.html의 flow... 이해하기
@@ -10,7 +10,7 @@
 ## ⚽ React? React-native?
 - React-native
   - 페이스북에서 모바일용 '네이티브 앱'을 쉽게 만들 수 있게 하는 자바스크립트 라이브러리
-  - 장점) 한 번에 안드-iOS 지원하는 앱 개발 가능 (기존: 안드-안드스, iOS-Swift) → 시간&인력 줄임, 네이티브 코드로 컴파일 되어 성능 좋고 최신 OS 플랫폼에도 지원 
+  - 장점) 한 번에 안드-iOS 지원하는 앱 개발 가능 (기존: 안드-안드스, iOS-Swift) → 시간&인력 줄임, 네이티브 코드로 컴파일 되어 성능 좋고 최신 OS 플랫폼에도 지원  
   - 단점) 외부 라이브러리 부족, 복잡한 설정은 따로 구현해야 해서 시간&비용 소요
 - React
   - 페이스북에서 만든 오픈소스, FE의 UI를 만드는 자바스크립트 라이브러리 (최근 FE lib.로는 Angular,Vue-모두 'js lib.')
@@ -19,13 +19,13 @@
 
 리액트 이론) https://goddaehee.tistory.com/293
 
-### ⚾ React 프로젝트 시작하기 
+## ⚽ React 프로젝트 시작하기 
 with. https://react.codepot.kr/docs/week01/doc2/
 - [x] install Node.js
 - [x] create react app
 - 회사 컴으로 해서 그런지 SSL 등 제약이 너무 많았다.. `happy hacking!` 이 어찌나 반갑동지.
 
-#### 🤷‍♂️ 클래스형 컴포넌트? 함수형 컴포넌트?
+### 🤷‍♂️ 클래스형 컴포넌트? 함수형 컴포넌트?
 클래스형 컴포넌트
 - state 기능, 라이프 사이클 기능 사용
 - 임의 메서드 정의 불가
@@ -42,3 +42,16 @@ with. https://react.codepot.kr/docs/week01/doc2/
 
 - search. 라이프 사이클? 리액트 훅? ES6?
 리액트 이론 심화) https://devowen.com/298
+
+
+### 🧵 Quick Start
+```bash
+# react 프로젝트 초기화
+npx create-react-app [프로젝트 이름]
+
+# 폴더 이동
+cd [프로젝트 이름]
+
+# react 실행하기
+npm start
+```
